@@ -41,6 +41,7 @@
     <div id="chests"  style="background-color:burlywood;">Number of chests checked is zero</div>
     <div id="score" style="background-color:greenyellow;">Score is unknown</div>
     <div id="help"  style="background-color:violet;">Help report</div>
+    <button class="btn btn-success" type="submit" onclick="resetGame()">Reset</button>
   </div>
 </div>
 <div class="container">
@@ -145,7 +146,7 @@ function check(position){
       document.getElementById("help").innerHTML = "Help report"
       for(let i = 0; i < 24; i++) {
           if(i != 12) {
-              document.getElementById(ids[i]).src = "Treasure Chest.jpg"
+              document.getElementById(ids[i]).src = "treasurechest.jpg"
           }
       }
   }
