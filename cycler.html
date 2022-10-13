@@ -4,7 +4,7 @@
 		<style>
 			.flex-container {
       			display: flex;  flex-direction:row;
-      			background-color: purple;
+      			background-color: yellowgreen;
 			}
 			.flex-container > div {  /*div children of the flex container*/
   				background-color: #f1f1f1; 
@@ -14,7 +14,7 @@
 			@media (max-width: 600px) { 
 	 			.flex-container{
 		 			flex-direction:column;
-		 			background-color: green;
+		 			background-color:blueviolet;
 	  			}
 			}
 		</style>
@@ -38,7 +38,7 @@
 		function makeNewDiv(){
 			/* make the div and its text */
 			let element = document.createElement("div");
-			element.style.color = "limegreen";
+			element.style.color = "orange";
 			let inputRead = document.getElementById("userIn").value;
 			element.innerHTML = inputRead;
 			element.className = " cycler";
